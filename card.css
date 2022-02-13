@@ -89,3 +89,19 @@ margin-bottom: 8px;
    color: white;
    height:25px;
   }
+
+ 
+ .text-overlay {
+    margin: 1rem auto;
+    position: relative; 
+    padding: 8px;
+  }
+  
+  .card-body .title,.date {
+    z-index:01;
+    position: absolute;
+    right: 0;
+    top:150px;
+    left: 0;
+    color: white;
+  }
