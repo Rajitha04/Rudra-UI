@@ -1,18 +1,20 @@
 img{
-    width:100%  
+    width:100%;
+   
 }
 
 body{
     background-color:whitesmoke;
 }
 .container{
+    background-color: white;
     max-width: 400px;
     margin:auto;
     margin-top: 20vh;
     box-sizing: border-box;   
     position: relative;
     border:1px solid navy;
-    display: block;    
+       
 }
 .badge-card{
    background-color: white; 
@@ -63,6 +65,7 @@ margin-bottom: 8px;
       color: navy;
       margin: 10px 10px;
       border: none;
+      
   }
   .btn-text{
       color: navy;
@@ -105,3 +108,37 @@ margin-bottom: 8px;
     left: 0;
     color: white;
   }
+
+.shadow-container{
+    max-width: 400px;
+    margin:auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;  
+    
+}
+.shadow-card{
+    
+padding: 20px;
+width: 400px;
+  box-shadow: 10px 10px 5px lightblue, 10px 10px 5px lightblue inset;
+  text-align: center;
+  
+}
+.horizantal-card-container{
+ border: 1px solid navy;
+ max-width: 500px;
+ margin: auto;
+margin-top: 20vh;
+}
+.horizantal-card{
+    display: grid;
+    grid-auto-flow: column;  
+    position: relative; 
+    column-gap: 8px;
+}
+.horizantal-image img{
+   padding: 8px 4px;
+   height: 200px;
+}
