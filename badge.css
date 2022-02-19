@@ -1,0 +1,157 @@
+.avatar-medium{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 16px;      
+    margin: auto;
+
+} 
+.avatar{
+    color: white;
+    font-weight: bold;
+    margin: 4vh 2vh; 
+    
+}
+
+body {
+    
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .icon-button {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin:25px;
+  }
+  
+  .icon-button:hover {
+    cursor: pointer;
+    background-color: lightsalmon;
+  }
+  
+  .icon-button__badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+.home__badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background: rgb(68, 64, 64);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.mail__badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background:white;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.call__badge{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    background: green;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.person__badge{
+position: absolute;
+top:-10px;
+left: -10px;
+width: 25px;
+height: 25px;
+background: rgb(74, 74, 122);
+color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+}
+
+.music__badge{
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    width: 25px;
+    height: 25px;
+    background: red;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.active__badge{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: green;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  
+}
+
+.inactive__badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  
+}
