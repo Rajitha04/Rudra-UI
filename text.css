@@ -1,0 +1,57 @@
+.shadow{
+    text-shadow: 2px 2px 5px red;
+}
+.letter-spacing{
+    letter-spacing: 5px;
+}
+
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform: lowercase;
+}
+
+p.capitalize{
+    text-transform: capitalize;
+}
+
+.overline{
+text-decoration-line: overline;
+text-decoration-color: red;
+}
+.underline{
+    text-decoration-line: underline;
+    text-decoration-color: green;
+}
+.line-through{
+    text-decoration-line: line-through;
+    text-decoration-color: purple;
+}
+.over-under{
+    text-decoration-line: overline underline;
+    font-size: large;
+
+}
+
+.heading{
+    background-color: black;
+    color:white;
+}
+
+.color-text{
+    color:darkgoldenrod;
+    font-weight: 600;
+    font-size: large;
+}
+.text-align-right {
+    text-align-last: right;
+  }
+  
+  .text-align-center{
+    text-align-last: center;
+  }
+  
+  .text-align-justify{
+    text-align-last: justify;
+  }
