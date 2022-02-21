@@ -164,3 +164,21 @@ iframe{
     margin-bottom: 5vh;
 
 }
+.grid{
+    display: grid;
+}
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.side-info{
+    grid-column: 2/4;
+    grid-row: 2/6;
+    padding: 20px;
+}
