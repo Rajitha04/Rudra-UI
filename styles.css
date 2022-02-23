@@ -6,9 +6,9 @@ body{
     margin: 0px auto;
 }
 :root{
-    --primary-color:
+    --primary-color:rgb(146, 94, 146);
     
-#818CF8;
+
     --grey-color:
     #E5E7EB;
     --heading-color:#6B7280;
