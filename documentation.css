@@ -1,0 +1,284 @@
+img{
+    width:100%;
+   
+}
+:root{
+    --primary-color:rgb(33, 45, 68);
+}
+
+body{
+    background-color:whitesmoke;
+}
+.container{
+    background-color: white;
+    max-width: 400px;
+    margin:auto;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+    box-sizing: border-box;   
+    position: relative;
+    border:1px solid rgb(11, 11, 20);
+       
+}
+.badge-card{
+   background-color: white; 
+   padding: 8px;  
+}
+
+.save-button{
+border: 2px solid navy;
+background-color: white;
+color: navy;
+border-radius: 1.5rem;
+width:20vh;
+height:5vh;
+margin-bottom: 8px;
+}
+.buy-button{
+background-color: navy;
+color: white;
+border-radius: 1.5rem;
+width:20vh;
+height: 5vh;
+margin-bottom: 8px;
+}
+.price{
+    font-weight: bolder;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    left: 20px;;
+    z-index: 10;
+    background-color: navy;
+    border-radius:1rem;
+    width:18vh;
+    height:20px;
+    text-align: center;
+   color: white;
+  }
+  
+  .card-body h2{
+  margin: 30px 20px;   
+  }
+  .card-body p{
+      margin: 10px;
+  }
+
+  .btn-icon{
+      color: navy;
+      margin: 10px 10px;
+      border: none;
+      
+  }
+  .btn-text{
+      color: navy;
+      margin: 10px 10px;
+      border: 1px solid white;   
+      border: none;
+  }
+
+  .text-only-card{
+    display: block;
+  }
+
+.dismiss-card-body{
+    margin:10px;
+}
+
+.dismiss{
+    position: absolute;
+    top: 10px;
+    right: 20px;;
+    z-index:10;
+    background-color: black;
+    border-radius:1rem;
+   color: white;
+   height:25px;
+  }
+
+ 
+ .text-overlay {
+    margin: 1rem auto;
+    position: relative; 
+    padding: 8px;
+  }
+  
+  .card-body .title,.date {
+    z-index:01;
+    position: absolute;
+    right: 0;
+    top:150px;
+    left: 0;
+    color: white;
+  }
+
+.shadow-container{
+    max-width: 400px;
+    margin:auto;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;  
+    
+}
+.shadow-card{
+    
+padding: 20px;
+width: 400px;
+  box-shadow: 10px 10px 5px lightblue, 10px 10px 5px lightblue inset;
+  text-align: center;
+  
+}
+.horizantal-card-container{
+ border: 1px solid navy;
+ max-width: 500px;
+ margin: auto;
+margin-top: 8vh;
+}
+.horizantal-card{
+    display: grid;
+    grid-auto-flow: column;  
+    position: relative; 
+    column-gap: 8px;
+}
+.horizantal-image img{
+   padding: 8px 4px;
+   height: 200px;
+}
+.heading-content{
+    text-align: center;
+}
+
+.para-content{
+    text-align: center;
+    font-size:20px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+
+iframe{
+    max-width: 500px;
+    max-height: 350px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5vh;
+
+}
+
+.navigation-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color:rgb(33, 45, 68) ;
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.active-link{
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+
+
+
+.header{
+    text-align:center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--header-color);
+    font-size:xx-large;
+}
+.image{
+    max-width:80%;
+    width:400px;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.brand{
+  color: white;  
+}
+
+.non-bullet{
+    list-style: none;
+}
+.inline{
+    display: inline;
+}
+.margin{
+    margin:1rem;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.brand{
+    font-size: x-large;
+    font-weight: bold;
+}
+.navigation{
+    background-color:var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin: auto;
+}
+  .nav-links{
+    text-decoration: none;
+    color: white;
+
+  }  
+
+.nav-right{
+    text-align: right;
+}
+
+.footer{
+    background-color:var(--primary-color);
+    text-align: center;
+    padding:2rem 1rem;
+    color:white;
+    border-top-right-radius: 1rem;
+border:2rem 2rem;
+
+}
+
+
+.link{
+   color:white;
+   box-sizing:border-box;
+   border:1px solid var(--primary-color);
+   max-width: 85%;
+   border-radius: 2rem;
+   padding:0.5rem 1rem;
+   text-decoration: none;  
+   background-color: var(--primary-color);
+
+}
+
+.footer-header{
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+.git{
+    text-decoration: none;
+    color: white;
+}
+.social-links{
+    text-align: center;
+    
+    padding:1rem;
+box-sizing: border-box;
+
+    font-weight: x-large;
+    font-size: bold;
+    
+}
+.footer ul{
+    padding-inline-start: 0px;
+
+}
